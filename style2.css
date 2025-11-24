@@ -1,0 +1,76 @@
+li{
+   color : white;
+   font-size: 20px;
+   padding: 30px 30px 30px 20px;
+   margin-left: 135px;
+}
+header{
+   height: 80px;
+   width: 1520px;
+   background-color: black;
+   list-style-type: none;
+   margin :0px;
+   display: flex;
+}           
+ body{
+     margin: 0px;
+     background-color: BLACK;
+ }
+
+ .container{
+    width: 100%;
+    display: flex;
+ }
+ .card{
+      background-color: grey;
+      width: 365px;
+      height: 500px;
+      margin: 20px;
+ }
+ .singer{ 
+    margin: 20px;
+    width: 310px;
+    height: 325px;
+    border: 2px solid black;
+ }
+ .name{ 
+    margin: 0px;
+    margin-left: 50px;
+    font-style: times;
+    font-size: 34px;
+ }
+ .name1{ 
+    margin: 0px;
+    margin-left: 10px;
+    font-style: times;
+    font-size: 34px;
+ }
+ .name2{ 
+    margin: 0px;
+    margin-left: 10px;
+    font-style: times;
+    font-size: 34px;
+ }
+ .name3{ 
+    margin: 0px;
+    margin-left: 10px;
+    font-style: times;
+    font-size: 34px;
+ }
+ .line{
+    width: 3px;
+    height: 60px ;
+    background-color: black;
+ }
+ .a-123 a {
+   cursor: pointer;
+   color: white;
+   text-decoration: none;
+}
+
+.a-123 a:hover {
+   color:rgb(19, 208, 19);
+   cursor: pointer;
+}
+
+

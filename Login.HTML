@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify web browser</title>
+    <style>
+        
+        .container {
+            width: 180px; 
+            height :200px;
+            margin: 150px auto; 
+            padding: 80px; 
+            background-color:rgb(238, 237, 237); 
+        }
+        button{
+            height:25px;
+            width:150px;
+            background-color: black;
+            color: white;
+        }
+        li{
+            color : white;
+            font-size: 20px;
+            padding: 30px 30px 30px 20px;
+            margin-left: 135px;
+         }
+         header{
+            height: 78px;
+            width: 1520px;
+            background-color: black;
+            list-style-type: none;
+            margin :0px;
+            display: flex;
+         }           
+          body{
+              margin: 0px;
+              background-color: white;
+          }
+          .image-container {
+            text-align: center; 
+        }
+        img {
+            
+            margin: 0 auto; 
+        }
+        .a-123 a {
+            cursor: pointer;
+            color: white;
+            text-decoration: none;
+        }
+        
+        .a-123 a:hover {
+            color:rgb(19, 208, 19);
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <div >
+            <img src="./photos/sptoify-removebg-preview.png" width="80px" height="63px" >
+        </div>
+        <div>
+            <h1 style="color: green; font-size: 26px;">SPOTIFY</h1>
+        </div>
+           
+        <li class="a-123"><a href="home.HTML"><b>Home</b></a></li>
+        <li class="a-123"><a href="about.HTML"><b>About</b></a></li>
+        <li class="a-123"><a href="allsongs.HTML"><b>All Songs</b></a></li>
+        <li class="a-123"><a href="allmovies.HTML"><b>All Movies</b></a></li>
+        <li class="a-123"><a href="Login.HTML"><b>Login/Signup</b></a></li>
+    </header>
+    <div class="container">
+        <p style="padding-left: 30px;"><b>SIGN IN PAGE</b></p>
+    <form id="submission">
+        <div class="image-container">
+            <img src="./photos/sptoify-removebg-preview.png" width="60px" height="60px"><br>
+        </div>
+        <label style="padding-left: 50px;"><b>Email ID</b></label>
+        <input type="email" placeholder="Enter Your Email ID" id="email" required><br>
+        <label style="padding-left: 50px;"><b>Password</b></label>
+        <input type="password" placeholder="Enter Your Password" id="password" required><br><br>
+        <div style="padding-left: 10px;">
+            <button type="submit"><b>Submit</b></button>
+        </div>
+    </div>
+    <script>
+        const form = document.getElementById('submission')
+        form.addEventListener('submit',function(event)
+        {
+            event.preventDefault();
+            const email = document.getElementById('email').value
+            const password = document.getElementById('password').value
+            console.log('user email is:',email,'user password is:',password)
+        })
+    </script>
+    </form>
+</body>
+</html>

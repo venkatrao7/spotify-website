@@ -1,0 +1,74 @@
+.container-fluid{
+    background-color: #181818;
+    box-shadow: 10px 5px 5px grey;
+
+}
+#n{
+    color:white;
+    cursor:pointer;
+}
+#n:hover{
+    color:gold;
+    cursor:pointer;
+}
+.nav-link.home:hover{
+    color:gold;
+    cursor:pointer;
+    
+}
+.nav-link.home{
+    color:white;
+    cursor:pointer;
+}
+  .nav-link.features {
+    color: white;
+    cursor:pointer;
+  }
+  .nav-link.features:hover {
+    color: gold;
+    cursor:pointer;
+  }
+  .nav-link.pricing {
+    color: white;
+    cursor:pointer;
+  }
+  .nav-link.pricing:hover {
+    color: gold;
+    cursor:pointer;
+  }
+  .nav-link.owership {
+    color: white;
+    cursor:pointer;
+  }
+  .nav-link.owership:hover {
+    color: gold;
+    cursor:pointer;
+  }
+
+  .li{
+    color: white;
+  }
+  #car{
+    color: white;
+    list-style-type: none;
+  }
+  #model{
+   color: white;
+   list-style-type: none;
+  }
+  #price{
+    color: white;
+    list-style-type: none;
+  }
+  #ul1{
+    text-align: center;
+  }
+aside{
+    position: sticky;
+    top:0px;
+}
+.card{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+}
